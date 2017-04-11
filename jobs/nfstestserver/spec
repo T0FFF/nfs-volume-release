@@ -7,4 +7,11 @@ templates:
 
 packages: []
 
-properties: {}
+properties:
+  nfstestserver.export_path:
+    description: "NFS export path"
+    default: "/export/vol1"
+  nfstestserver.volumes:
+    description: "Export directories"
+  nfstestserver.volumes_export_file:
+    description: "Export right (exportfs format)"
